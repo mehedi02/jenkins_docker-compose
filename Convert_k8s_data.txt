@@ -1,0 +1,1 @@
+cat ca.crt | base64 -w 0; echo
