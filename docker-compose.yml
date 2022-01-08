@@ -14,7 +14,9 @@ services:
 volumes:
   jenkins.data:
 
-networks:
-  default:
-    external:
-      name: minikube
+# if you use minikube cluster uncomment the following section
+
+# networks:
+#   default:
+#     external:
+#       name: minikube
